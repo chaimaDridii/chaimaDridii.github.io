@@ -34,8 +34,85 @@ http://www.templatemo.com/tm-512-moonlight
   .personal-info li {
 	margin-bottom: 10px; /* Espacement entre les éléments */
   }
-  .resume-title{
-	color: wheat; }
+  .resume-title {
+    font-size: 1.8rem;
+    color: wheat;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.social-links {
+	display: flex;
+	justify-content: center; /* Centrer horizontalement */
+	align-items: center; /* Centrer verticalement */
+	gap: 15px; /* Espacement entre les icônes */
+	margin-top: 20px; /* Espacement supérieur */
+  }
+  
+  .social-links a {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff; /* Couleur des icônes */
+	background-color: #333; /* Couleur de fond des icônes */
+	border-radius: 50%; /* Forme circulaire */
+	font-size: 20px; /* Taille des icônes */
+	transition: all 0.3s ease; /* Animation fluide */
+  }
+  
+  .social-links a:hover {
+	background-color: #007bff; /* Couleur au survol */
+	color: #fff; /* Couleur de l'icône au survol */
+	transform: scale(1.1); /* Effet de zoom */
+  }
+  
+.resume-item h4 {
+    font-size: 1.4rem;
+    color: #ddd;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.resume-item h5 {
+    font-size: 1.2rem;
+    color: #ddd;
+    margin-bottom: 10px;
+}
+
+.resume-item p em {
+    color: #ddd;
+    font-style: italic;
+}
+
+.resume-item ul {
+    padding-left: 20px;
+}
+
+.resume-item ul li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+.left-content, .right-image {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px #ddd;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .col-md-6 {
+        width: 100%;
+        padding: 10px;
+    }
+}
 	.resume-item{
 		color:  #ddd; }
 		.h4 .h5 .li .p{color: #ddd;}
