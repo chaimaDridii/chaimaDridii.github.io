@@ -204,6 +204,9 @@
 .fa-user:before {
   content: "\f007";
 }
+.fa-cogs:before {
+  content: "\f007";
+}
 .fa-film:before {
   content: "\f008";
 }
@@ -702,6 +705,10 @@
 .fa-users:before {
   content: "\f0c0";
 }
+
+.fa-cogss:before {
+  content: "\f0c0";
+}
 .fa-chain:before,
 .fa-link:before {
   content: "\f0c1";
@@ -849,6 +856,9 @@
   content: "\f0ee";
 }
 .fa-user-md:before {
+  content: "\f0f0";
+}
+.fa-cogs-md:before {
   content: "\f0f0";
 }
 .fa-stethoscope:before {
@@ -1802,6 +1812,13 @@
 .fa-user-times:before {
   content: "\f235";
 }
+
+.fa-cogs-plus:before {
+  content: "\f234";
+}
+.fa-cogs-times:before {
+  content: "\f235";
+}
 .fa-hotel:before,
 .fa-bed:before {
   content: "\f236";
@@ -2212,6 +2229,16 @@
   content: "\f2be";
 }
 .fa-user-o:before {
+  content: "\f2c0";
+}
+
+.fa-cogs-circle:before {
+  content: "\f2bd";
+}
+.fa-cogs-circle-o:before {
+  content: "\f2be";
+}
+.fa-cogs-o:before {
   content: "\f2c0";
 }
 .fa-id-badge:before {
