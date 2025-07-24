@@ -6,8 +6,7 @@
         <title>Chaima portfolio</title>
         <link rel="icon" href="../img/girl.ico" type="image/x-icon">
         <link rel="shortcut icon" href="../img/girl.ico" type="image/x-icon">
-        
-   
+
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
         <meta name="description" content>
@@ -24,6 +23,41 @@
             rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+        <style>
+    /* Ajoutez ceci dans votre CSS */
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+    .item .thumb {
+        height: 250px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: opacity 0.5s ease;
+    }
+    .hover-effect {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(249, 109, 56, 0.9);
+        z-index: 2;
+        opacity: 0;
+        transition: all 0.3s;
+    }
+    .item .thumb:hover .hover-effect {
+        opacity: 1;
+    }
+</style>
     </head>
 
     <body>
@@ -73,20 +107,22 @@
                                     alt></div>
                         </div>
                         <div class="col-md-9">
-                            <h2>Dridi chaima</h2>
-                            <p>Je suis Chaima Dridi, développeuse <em>PHP
-                                </em>freelance passionnée. <a
-                                    href="cv_chaima.pdf"
+                            <h2>Chaima Dridi</h2>
+                            <p>Je suis Chaima Dridi, Développeuse Web <em>
+                                    Full‑Stack </em>
+                                — spécialisée en Angular & PHP.
+                                <a
+                                    href="Chaima_Dridi.pdf"
                                     download="CV-Chaima-Dridi.pdf"
                                     style="color:beige; 	text-decoration: underline;
 ">
-                                    Télécharger mon CV</a></p>
+                                    Télécharger CV</a></p>
                             <div class="row personal-info">
 
                                 <ul>
                                     <li><i class="bi bi-chevron-right"></i>
                                         <strong>📞 Téléphone :</strong>
-                                        <span>+126 97 926 414</span></li>
+                                        <span>+216 97 926 414</span></li>
                                     <li><i class="bi bi-chevron-right"></i>
                                         <strong>📧 Email :</strong>
                                         <span>drydychaima@gmail.com</span></li>
@@ -148,15 +184,15 @@
                                     <div class="icon-box"><img
                                             src="img/css3.jpg" alt="CSS3"></div>
                                     <div class="icon-box"><img
-                                            src="img/javascript.jpg"
+                                            src="img/js.jpg"
                                             alt="JavaScript"></div>
-                                    <div class="icon-box"><img
-                                            src="img/bootstrap.jpg"
-                                            alt="bootstrap"></div>
                                     <div class="icon-box"><img src="img/php.jpg"
                                             alt="PHP"></div>
                                 </div><br>
                                 <div class="stack-icons">
+                                    <div class="icon-box"><img
+                                            src="img/laravel.jpg"
+                                            alt="laravel"></div>
                                     <div class="icon-box"><img
                                             src="img/symfony.jpg"
                                             alt="symfony"></div>
@@ -280,6 +316,82 @@
                                                             <h3
                                                                 class="resume-title">Expérience
                                                                 professionnelle</h3>
+                                                            <hr>
+                                                            <div
+                                                                class="resume-item">
+                                                                <h4>Projet de
+                                                                    fin d'études
+                                                                    –
+                                                                    Développement
+                                                                    Full
+                                                                    Stack</h4>
+                                                                <h5>01-2025 /
+                                                                    06-2025</h5>
+                                                                <p><em>POLY-TECH,
+                                                                        Sfax</em></p>
+                                                                <ul>
+                                                                    <li>Développement
+                                                                        d'une
+                                                                        application
+                                                                        web
+                                                                        responsive
+                                                                        et
+                                                                        sécurisée
+                                                                        avec
+                                                                        <strong>Angular</strong>
+                                                                        (frontend)
+                                                                        et
+                                                                        <strong>Laravel</strong>
+                                                                        (backend).</li>
+                                                                    <li>Fonctionnalités
+                                                                        :
+                                                                        authentification
+                                                                        via
+                                                                        <strong>JWT</strong>,
+                                                                        notifications
+                                                                        <strong>Pusher</strong>,
+                                                                        gestion
+                                                                        des
+                                                                        demandes,
+                                                                        devis,
+                                                                        factures,
+                                                                        paiements
+                                                                        et
+                                                                        dashboard
+                                                                        client.</li>
+                                                                    <li>Mise en
+                                                                        place de
+                                                                        <strong>notifications
+                                                                            mail
+                                                                            via
+                                                                            SMTP</strong>,
+                                                                        chatbot
+                                                                        statique,
+                                                                        et
+                                                                        architecture
+                                                                        REST
+                                                                        API.</li>
+                                                                    <li>Utilisation
+                                                                        de
+                                                                        <strong>Git,
+                                                                            Trello</strong>
+                                                                        et
+                                                                        méthode
+                                                                        <strong>SCRUM</strong>
+                                                                        (sprint
+                                                                        planning,
+                                                                        backlog,
+                                                                        user
+                                                                        stories).</li>
+                                                                    <li><strong>Projet
+                                                                            validé
+                                                                            avec
+                                                                            mention
+                                                                            Très
+                                                                            Bien</strong>.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <hr>
                                                             <div
                                                                 class="resume-item">
                                                                 <h4>Développeuse
@@ -611,6 +723,34 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="col-md-4 col-sm-6">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <a href="img/chatbot.jpg"
+                                                    data-lightbox="image-7">
+                                                    <div class="hover-effect">
+                                                        <div
+                                                            class="hover-content">
+                                                            <h2>Plateforme RH –
+                                                                PFE</h2>
+                                                            <p>Angular, Laravel,
+                                                                JWT,<br>MySQL,
+                                                                Pusher,
+                                                                SMTP,<br>REST
+                                                                API, SCRUM</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <div class="image7">
+                                                    <img id="slideshow-image7"
+                                                        src="img/connexion.jpg"
+                                                        alt="Projet PFE RH"
+                                                        style="width: 100%; height: auto;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
                             </div>
                         </div>
@@ -672,7 +812,7 @@
                                         </div>
                                     </form>
                                 </div>
-                                
+
                             </div>
                         </div>
                     </div>
@@ -764,6 +904,10 @@ const images5 = [
     "img/ff.jpg",
     "img/log.jpg"
 ];
+;const images7 = [
+    "img/connexion.jpg",
+    "img/chatbot.jpg"
+];
 
   let index1 = 0; // Index de l'image actuelle pour le premier diaporama
   let index2 = 0; // Index de l'image actuelle pour le second diaporama
@@ -771,6 +915,7 @@ const images5 = [
   let index4 = 0; // Index de l'image actuelle pour le premier diaporama
   let index5 = 0; // Index de l'image actuelle pour le second diaporama
   let index6 = 0;
+    let index7= 0;
   // Fonction pour changer les images du premier diaporama
   setInterval(() => {
     index1 = (index1 + 1) % images1.length;
@@ -798,6 +943,10 @@ const images5 = [
     index6 = (index6 + 1) % images6.length;
     document.getElementById('slideshow-image6').src = images6[index6];
   }, 3000); // Intervalle de 3 secondes
+   setInterval(() => {
+    index7 = (index7 + 1) % images7.length;
+    document.getElementById('slideshow-image7').src = images7[index7];
+  }, 3000); 
   function sendMail() {
     // Récupération des données du formulaire
     const name = document.getElementById('name').value;
