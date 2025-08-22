@@ -750,7 +750,30 @@
                                             </div>
                                         </div>
                                     </div>
-
+   <div class="col-md-4 col-sm-6">
+                                        <div class="item">
+                                            <div class="thumb">
+                                                <a href="img/services1.jpg"
+                                                    data-lightbox="image-8">
+                                                    <div class="hover-effect">
+                                                        <div
+                                                            class="hover-content">
+                                                            <h2>Plateforme Services</h2>
+                                                            <p>Codeigniter,
+                                                                MySQL
+                                                                ,SCRUM</p>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                                <div class="image8">
+                                                    <img id="slideshow-image8"
+                                                        src="img/services2.jpg"
+                                                        alt="Projet PFE RH"
+                                                        style="width: 100%; height: auto;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -905,10 +928,14 @@ const images5 = [
     "img/log.jpg"
 ];
 ;const images7 = [
-    "img/connexion.jpg",
-    "img/chatbot.jpg"
+       "img/chatbot.jpg",
+    "img/connexion.jpg"
+ 
 ];
-
+const images8 = [
+    "img/services1.jpg",
+    "img/service3.jpg"
+];
   let index1 = 0; // Index de l'image actuelle pour le premier diaporama
   let index2 = 0; // Index de l'image actuelle pour le second diaporama
   let index3 = 0;
@@ -916,6 +943,7 @@ const images5 = [
   let index5 = 0; // Index de l'image actuelle pour le second diaporama
   let index6 = 0;
     let index7= 0;
+      let index8= 0;
   // Fonction pour changer les images du premier diaporama
   setInterval(() => {
     index1 = (index1 + 1) % images1.length;
@@ -946,6 +974,10 @@ const images5 = [
    setInterval(() => {
     index7 = (index7 + 1) % images7.length;
     document.getElementById('slideshow-image7').src = images7[index7];
+  }, 3000); 
+    setInterval(() => {
+    index8 = (index8 + 1) % images8.length;
+    document.getElementById('slideshow-image8').src = images8[index8];
   }, 3000); 
   function sendMail() {
     // Récupération des données du formulaire
